@@ -26,5 +26,5 @@ jobs:
       - name: comment on the pull request
         uses: mshick/add-pr-comment@v2
         with:
-          repo - token: ${{ secrets.CLI BOT }}
+          repo-token: ${{ secrets.CLI BOT }}
           message: "${{ env.message }}"
